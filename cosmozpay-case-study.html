@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="COSMOZPAY case study — product design and digital experience work by Theophilus."
+    />
+    <title>COSMOZPAY Case Study | Theophilus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .case-study-page .section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+      }
+
+      .case-hero {
+        padding-top: 70px;
+        padding-bottom: 0;
+      }
+
+      .case-hero .container {
+        padding-bottom: 40px;
+      }
+
+      .case-hero-grid {
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 2rem;
+        align-items: end;
+      }
+
+      .case-hero h1 {
+        margin: 0;
+        font-size: clamp(2.8rem, 5vw, 5.2rem);
+        letter-spacing: -0.07em;
+        line-height: 0.96;
+      }
+
+      .case-hero-copy p {
+        color: var(--muted);
+        max-width: 560px;
+      }
+
+      .case-meta {
+        display: grid;
+        gap: 1rem;
+      }
+
+      .meta-box {
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 1rem 1.2rem;
+      }
+
+      .meta-box span {
+        display: block;
+        color: var(--primary);
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        margin-bottom: 0.38rem;
+      }
+
+      .meta-box p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .project-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1rem;
+      }
+
+      .project-gallery img {
+        width: 100%;
+        height: 100%;
+        min-height: 280px;
+        object-fit: cover;
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+
+      .process-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1.2rem;
+      }
+
+      .process-card {
+        padding: 1.5rem;
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.02);
+      }
+
+      .process-card strong {
+        display: block;
+        margin-bottom: 0.7rem;
+        color: var(--primary);
+        font-size: 0.82rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      .process-card p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .deliverables {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+      }
+
+      .deliverables .meta-box {
+        min-height: 100%;
+      }
+
+      @media (max-width: 760px) {
+        .case-hero-grid,
+        .process-grid,
+        .deliverables,
+        .project-gallery {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body class="case-study-page">
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Theophilus home">THEOPHILUS</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html#home">Home</a>
+          <a href="index.html#work">Work</a>
+          <a href="index.html#services">Services</a>
+          <a href="index.html#about">About</a>
+          <a href="index.html#contact">Contact</a>
+          <a class="button button-small" href="https://wa.me/2348037946223?text=Hi%20Theophilus%2C%20good%20day.%20I%20came%20across%20your%20portfolio%20and%20would%20love%20to%20discuss%20a%20project%20with%20you.%20Are%20you%20available%20to%20chat%3F" target="_blank" rel="noopener noreferrer">Let’s Talk</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero case-hero section-dark">
+        <div class="container case-hero-grid">
+          <div class="case-hero-copy reveal">
+            <p class="eyebrow">Featured Case Study</p>
+            <h1>COSMOZPAY</h1>
+            <p>
+              COSMOZPAY is a bill-payment platform designed to simplify the way people access essential digital services such as data purchases, airtime, electricity, cable subscriptions, and education payments.
+            </p>
+          </div>
+
+          <div class="case-meta reveal">
+            <div class="meta-box">
+              <span>Role</span>
+              <p>Product Design, User Experience, Digital Service Design</p>
+            </div>
+            <div class="meta-box">
+              <span>Focus</span>
+              <p>Clarity, trust, speed, and a smoother payments experience</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow eyebrow-dark">Overview</p>
+            <h2>Designing a digital service around everyday essentials.</h2>
+          </div>
+
+          <div class="deliverables reveal">
+            <div class="meta-box">
+              <span>Problem</span>
+              <p>People needed a simpler, more trustworthy way to handle recurring utility and digital transactions without friction or confusion.</p>
+            </div>
+            <div class="meta-box">
+              <span>Opportunity</span>
+              <p>The product needed to feel immediate, accessible, and premium while remaining practical for frequent, high-volume actions.</p>
+            </div>
+            <div class="meta-box">
+              <span>Objectives</span>
+              <p>Improve clarity, reduce decision friction, support diverse service categories, and define a cohesive digital brand experience.</p>
+            </div>
+            <div class="meta-box">
+              <span>Deliverables</span>
+              <p>Interface design, mobile-first flows, service structure, and product design direction across the user journey.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow eyebrow-dark">Design Approach</p>
+            <h2>Thoughtful UX decisions that make complex actions feel simple.</h2>
+          </div>
+
+          <div class="process-grid reveal">
+            <article class="process-card">
+              <strong>01 — Discovery</strong>
+              <p>Mapped essential user needs, service categories, and points of friction that affected confidence and completion.</p>
+            </article>
+            <article class="process-card">
+              <strong>02 — Flow Design</strong>
+              <p>Built clear user journeys with stronger hierarchy, readable transaction steps, and a calmer mobile-first rhythm.</p>
+            </article>
+            <article class="process-card">
+              <strong>03 — Visual System</strong>
+              <p>Created a clean interface language that communicates trust, speed, and utility without feeling overly technical or crowded.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow eyebrow-dark">Interface Highlights</p>
+            <h2>Product design for speed, clarity, and everyday trust.</h2>
+          </div>
+
+          <div class="project-gallery reveal">
+            <img src="my-design-assets/WhatsApp Image 2026-10-09 at 9.19.34 AM.jpeg" alt="CosmozPay interface concept" />
+            <img src="my-design-assets/WhatsApp Image 2026-10-09 at 9.19.35 AM.jpeg" alt="CosmozPay service design" />
+            <img src="my-design-assets/WhatsApp Image 2026-10-09 at 9.19.36 AM.jpeg" alt="CosmozPay mobile flow" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2025 Theophilus</p>
+        <div class="footer-links">
+          <a href="index.html#work">Work</a>
+          <a href="index.html#services">Services</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
